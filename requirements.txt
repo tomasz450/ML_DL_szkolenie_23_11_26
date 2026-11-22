@@ -1,0 +1,40 @@
+# Środowisko kursu "Data Science w Pythonie" (Python 3.13)
+# Pakiety główne; zależności pośrednie instalują się automatycznie.
+# Instalacja: pip install -r requirements.txt
+
+# Notatniki
+ipykernel==7.3.0
+
+# Podstawy: obliczenia i analiza danych
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.18.0
+statsmodels==0.14.6
+openpyxl>=3.1          # odczyt plików Excel (XLSX) w Pandas
+
+# Wizualizacja
+matplotlib==3.11.1
+seaborn==0.13.2
+plotly==6.9.0
+nbformat>=5.9          # wymagane przez Plotly do wyświetlania wykresów w notatnikach
+
+# Uczenie maszynowe
+scikit-learn==1.9.0
+imbalanced-learn==0.14.2
+joblib==1.5.3
+shap==0.52.0
+lime==0.2.0.1
+
+# Deep learning
+tensorflow==2.21.0
+keras==3.15.0
+pillow==12.3.0
+
+# Dane z zewnętrznych źródeł i API
+requests==2.34.2
+beautifulsoup4==4.15.0
+yfinance==1.5.1
+
+# Aplikacje webowe z modelem (5.4)
+streamlit>=1.52
+gradio==6.20.0
